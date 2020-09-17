@@ -1,17 +1,22 @@
 {
-    "author": "Matthew Ruzzi",
-    "chrome_url_overrides": {
-       "newtab": "newtab.html"
-    },
-    "description": "Replaces the New Tab page with SSASearch.",
-    "icons": {
-       "16": "favicon.png"
-    },
-    "manifest_version": 2,
-    "minimum_chrome_version": "29",
-    "name": "SSASearch New Tab Page",
-    "offline_enabled": true,
-    "short_name": "SSASearch",
-    "version": "0.0.1"
- }
- 
+  "author": "Matthew Ruzzi",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "description": "Replaces the New Tab page with SSASearch.",
+  "icons": {
+    "16": "favicon.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "29",
+  "name": "SSASearch New Tab Page",
+  "offline_enabled": true,
+  "short_name": "SSASearch",
+  "version": "0.0.2",
+  "content_scripts": [
+    {
+      "matches": ["https://search.yahoo.com/*"],
+      "css": ["adhighlight.css"]
+    }
+  ]
+}

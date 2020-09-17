@@ -1,0 +1,14 @@
+.searchCenterTopAds,
+.searchCenterBottomAds {
+  background-color: rgb(230, 255, 230) !important;
+}
+.ad-domain::before {
+  content: "[AD] ";
+}
+.ad-ql,
+.fc-1st {
+  display: none !important;
+}
+.AdTop {
+  padding-bottom: 10px !important;
+}
