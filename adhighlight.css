@@ -6,7 +6,8 @@
   content: "[AD] ";
 }
 .ad-ql,
-.fc-1st {
+.fc-1st ,
+.ads > .layoutMiddle > .layoutCenter{
   display: none !important;
 }
 .AdTop {
