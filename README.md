@@ -1,4 +1,7 @@
 # SSASearch-Chrome-Extension
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b20dcbd6545946468842a0c144adcd83)](https://app.codacy.com/manual/matthewr2024/SSASearch-Chrome-Extension?utm_source=github.com&utm_medium=referral&utm_content=matthewr2024/SSASearch-Chrome-Extension&utm_campaign=Badge_Grade_Settings)
+
 A Chrome extension that sets [SSASearch](https://github.com/matthewr2024/SSASearch#ssasearch) as the new tab page. 
 
 ## Installation
