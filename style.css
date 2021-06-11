@@ -1,0 +1,36 @@
+.searchCenterTopAds,
+.searchCenterBottomAds {
+  background-color: rgb(230, 255, 230) !important;
+}
+.ad-domain::before {
+  content: "[AD] ";
+}
+.ad-ql,
+.fc-1st,
+.ads > .layoutMiddle > .layoutCenter {
+  display: none !important;
+}
+.AdTop {
+  padding-bottom: 10px !important;
+}
+
+#results a,
+#results #web a,
+#results .compTitle h3 a,
+#results #left #web p a {
+  color: #1a0dab !important;
+}
+
+.reg.searchRightBottom {
+  display: none;
+}
+.ad-domain,
+#results .compTitle a,
+#results #web a.cite,
+#results #web .compTitle span,
+#results #web .compDlink span,
+#results #web .compArticleList span,
+#results #right .compImageList span,
+#results .LocalPc-LRRu .fc-10th {
+  color: #007542 !important;
+}
