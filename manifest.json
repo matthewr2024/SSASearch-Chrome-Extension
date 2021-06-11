@@ -12,7 +12,7 @@
   "name": "SSASearch New Tab Page",
   "offline_enabled": true,
   "short_name": "SSASearch",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "content_scripts": [
     {
       "matches": ["https://search.yahoo.com/*"],
